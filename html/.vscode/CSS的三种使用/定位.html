@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        #div1{
+            height: 500px;
+            width: 500px;
+            background-color: aqua;
+           
+            
+         
+        }
+        #div2{
+            height: 300px;
+            width: 300px;
+            background-color: chartreuse;
+            position: fixed; /* 相对于整个页面 */
+            right: 200px;
+            left: 200px;
+            opacity: 0.5; /* 单独设置属性内的透明度 */
+        }
+       
+        #div3{
+            height: 100px;
+            width: 100px;
+            background-color: fuchsia;
+            position: relative;/* position: relative;+方向  可向反方向移动 */
+
+            left: 300px;
+        }
+        #divS{
+            height: 100px;
+            width: 100px;
+
+            background-color: yellow;
+            position: absolute;  /* absolute相对于不是position不是static(默认属性)的属性定位 */
+            height: 300px;
+            width: 300px;
+
+        }
+        #divM{
+            height: 200px;
+            width: 200px;
+            background-color: black;
+        }
+            
+
+     
+
+
+    </style>
+</head>
+<body>
+    <div id="div1">
+        <div id="div2">
+            <div id="divS"></div>
+            <div id="divM"></div> 
+            <div id="div3">
+
+            </div>
+
+        </div>
+    </div>
+    
+</body>
+</html>

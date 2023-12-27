@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+
+
+
+</head>
+<body>
+    <section>
+        <h1>找不同</h1>
+
+    </section>
+
+    <nav>
+        <a href="https://www.huya.com/g/2633"target="_blank">点击领取.....</a>
+        <a href="https://book.douban.com/subject/20432061/">有疑问？</a>
+        <a href="2.html#di">文学在线浏览</a>
+        <a href="https//cn.bing.com/images/search?q=%e9%bb%91%e8%9e%ba%e4%b8%9d%e7%85%a7%e7%89%87&form=HDRSC2&first=1"target='_blank'>点击看黑丝</a>
+    </nav>
+
+       <label for="xuan">选数字</label>
+        <input type="text" id="xuan" list="shu"/>
+        <!-- 因为datalist用到了input，input会自动跟随type，所以可以设置type的默认属性，test为type的默认值  -->
+    <datalist id="shu">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+        <option>7</option>
+        <option>8</option>
+        <option>9</option>
+        <option>10</option>
+        <option>11</option>
+        <option>12</option>
+        <option>13</option>
+    </datalist>
+    <form action="" >
+        <labrl for="touxiang">头像：</labrl><input type="file" id="touxiang" /><!--选择文件 --><br/>
+        <label for="zhanghao">账号：</label><input type="text" placeholder="请输入账号" id="zhanghao"/><br/>
+        <label for="mima">密码:</label><input type="password" placeholder="请输入密码"  id="mima"/><br/>
+     
+       
+
+        <label for="shenfenzheng"> 身份证</label><input type="text" placeholder="请输入身份证" id="shenfenzheng" pattern="[1-9]{18}"/><br/>
+                                                                 <!-- pattern用来规定所填的格式 -->
+        <label for="shuru"></label>输入<input type="text" placeholder="请输入" id="shuru" required="required"/><br/>
+                                                                                        <!-- required用来规定此处为必填 -->
+        <input type="submit" value="这是提交，发送"/><br/>
+    </form>
+
+    <video width="1000" height="1000" controls>
+        <source src="D:\html\小神里.mp4"
+                type="video/mp4"/>
+        <source src="D:\html\小神里.mp4"
+                type="video/ogg"/>
+        
+        
+        <track default src="王手.vtt"
+                srclang="zh"
+                kind="subtitles"
+                label="text"
+               
+
+        
+        
+        
+        
+        />
+        <track />
+
+
+
+
+                
+    </video>
+
+
+
+
+
+
+   
+
+
+
+     
+    <canvas id="myCanvas" width="200" height="100" style="border:2px solid black;">
+    </canvas>   <!-- 待研究：画布 -->
+
+</body>
+</html>

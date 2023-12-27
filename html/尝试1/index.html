@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="JS/echarts.min.js"></script>
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo1">
+            <a href="#" class="logo"></a>
+            <div class="title">理工楼学生出勤大数据管理系统</div>
+            <div class="account">已有账号？ <a href="#">请登录&gt;</a></div>
+        </div>
+    </div>
+    <div id="one" style="width: 600px;height: 400px;"></div>
+    <script type="text/javascript">
+        var chartDom = document.getElementById('one');
+        var myChart = echarts.init(chartDom);
+        var option;
+
+        option = {
+            xAxis: {
+                type: 'category',
+                data: [
+                    'Monday',
+                    'Tuesday',
+                    'Wednesday',
+                    'Thursday',
+                    'Friday',
+                    'Saturday',
+                    'Thursday'
+                ]
+            },
+            yAxis: {
+                type: 'value'
+            },
+            series: [
+                {
+                    data: [1200, 2000, 1500, 800, 700, 1100, 1300],
+                    type: 'bar',
+                    showBackground: true,
+                    backgroundStyle: {
+                        color: 'rgba(180, 180, 180, 0.2)'
+                    }
+                }
+            ]
+        };
+
+        option && myChart.setOption(option);
+
+    </script>
+
+</body>
+
+</html>

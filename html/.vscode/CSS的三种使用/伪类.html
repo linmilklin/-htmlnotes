@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a{
+            width: 50px;
+            height: 30PX;
+            background-color: darkblue;
+            color: white;
+            display: inline-block;
+            text-align: center;
+            line-height: 30px;
+            text-decoration: none;
+        }
+
+        
+        /* 正确顺序为a:link>a:visited>a:hover>a:active */
+        a:link{/* 恢复默认样式 */
+            color: white;
+        }
+        a:visited{/* 鼠标点击后的样式 */
+            color: white;
+        }
+        a:hover{/* 鼠标悬停在标签上方的样式 */
+
+            color: blue;
+            background-color: lightgrey;
+        }
+        a:active{ /* 鼠标点击时的样式 */       
+            color: red;
+            background-color: black;
+        }
+        
+    </style>
+</head>
+<body>
+    <a href="">首页</a>
+</body>
+</html>
