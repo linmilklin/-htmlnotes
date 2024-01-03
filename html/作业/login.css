@@ -1,0 +1,88 @@
+body {
+    background-image: url(优香、诺亚.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.b {
+    display: inline-block;
+    font-family: 微软雅黑;
+    color: white;
+    font-size: 40px;
+    margin-left: 530px;
+    margin-top: -10px;
+}
+
+.t {
+    background-color: rgba(177, 190, 219, 0.338);
+    width: 800px;
+    height: 600px;
+    margin-left: 450px;
+    margin-top: 20px;
+    border-radius: 30px;
+    box-shadow: 1px 3px 0 0 rgba(0, 0, 0, 0.2);
+
+}
+
+
+.s {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 360px;
+
+}
+
+.s h3 {
+
+    font-family: 微软雅黑;
+    color: white;
+    font-size: 40px;
+    opacity: 0.8;
+
+}
+
+.d {
+
+    margin-top: -20px;
+    margin-left: 300px;
+
+
+}
+
+.zm input {
+    padding: 3%;
+    margin: 10px;
+    border: 0;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 7px;
+    border-bottom: 1px solid black;
+    border-color: rgba(255, 255, 255, 0.2);
+
+
+
+}
+
+.dz {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.dl {
+
+    padding: 10px 60px 10px 60px;
+    font-size: 14px;
+    color: grey;
+    border-radius: 20px;
+    border-color: rgba(255, 255, 255, 0.3);
+
+}
+.w{display: inline-block;
+    margin-top: 110px;
+    margin-left: 190px;
+}
+.mm{
+    background-color: rgba(255, 255, 255, 0);
+    
+    border-color:  rgba(255, 255, 255, 0);
+    border-bottom: 1px solid black;
+}
