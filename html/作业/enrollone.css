@@ -1,0 +1,73 @@
+.b{
+
+    font-family: 微软雅黑;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: -30px;
+    background-repeat: no-repeat;
+    color: dimgrey;
+}
+
+.q{
+    margin-top: -100px;
+    margin-left: 200px;
+    font-family: 微软雅黑;
+}
+.s {
+    display: inline-block;
+    font-size: 30px;
+    margin: 60px;
+    margin-left: 160px;
+}
+.z{
+    font-family: 微软雅黑;
+    padding: 3%;
+    margin-top: -160px;
+    margin-left: 10px;
+    border: 0;
+    font-size: 24px;
+
+}
+
+.z input {
+    padding: 1.5%;
+    padding-right: 100px;
+    border: 0.2;
+    border-radius: 7px;
+    border-color: rgba(0, 0, 0, 0.6);
+    margin: 10px;
+
+
+}
+#sr{
+    border-color: rgba(0, 0, 0, 0);
+}
+#qm{
+    width: 360px;
+    height: 100px;
+}
+#zc{
+    margin-left: 2px;
+    padding: 20px 140px 20px 140px;
+    font-size: 20px;
+    border-radius: 7px;
+
+
+}
+
+.m{
+        background-color: deepskyblue;
+        width: 600px;
+        height: 958px;
+        float: right;
+        margin-top: -920px;
+
+        
+}
+.alnj{
+    background-image: url(阿罗娜.mp4.jpg);
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 600px;
+    display: block;
+}
