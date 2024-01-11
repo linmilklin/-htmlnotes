@@ -1,0 +1,52 @@
+.header{
+    height: 100px;
+    /* background-color: red;  */
+    background-image: url("headbg.jpg");
+    background-repeat: repeat-x;
+    background-position: bottom;
+    /* border: solid 1px black; */
+    margin-top: -10px;
+}
+.logo1{
+    width: 1210px;
+    height: 80px;
+    /* background-color: aqua;  */
+    margin: auto;
+    margin-top: 30px;
+}
+.logo{
+    display: block;
+    width: 160px;
+    height: 60px;
+    background-image: url("快银.jpg");
+    float: left;
+    margin-top: 10px;
+}
+.title{
+    float: left;
+    font-size: 24px;
+    margin-top: 34px;
+    margin-left: 80px;
+}
+.account{
+    float: right;
+    margin-top: 55px;
+    color: gray;
+}
+.account a:link{
+    color: red;
+}
+.account a:hover{
+    color: #C81623;
+}
+.zc{
+    float: right;
+    margin-top: 55px;
+    color: gray;
+}
+.zc a:link{
+    color: red;
+}
+.zc a:hover{
+    color: #C81623;
+}
